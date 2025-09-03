@@ -1,268 +1,196 @@
 export const metadata = {
-  title: "Policies - Pose-IQ",
-  description: "Privacy Policy, Cookie Policy, and other important policies for Pose-IQ",
+  title: "Privacy Policy - PoseIQ",
+  description: "Privacy Policy for PoseIQ - Your privacy is very important to us",
 };
 
 export default function Policies() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-200">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Policies</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Privacy Policy</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Understanding how we protect your privacy and ensure data security
+            We built this app to help you find and capture great poses easily. Your privacy is very important to us.
           </p>
         </div>
       </section>
 
-      {/* Policy Navigation */}
-      <section className="py-12 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="#privacy" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-gray-700 hover:text-blue-600">
-              Privacy Policy
-            </a>
-            <a href="#cookies" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-gray-700 hover:text-blue-600">
-              Cookie Policy
-            </a>
-            <a href="#data" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-gray-700 hover:text-blue-600">
-              Data Protection
-            </a>
-            <a href="#security" className="bg-white px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-shadow text-gray-700 hover:text-blue-600">
-              Security Policy
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Privacy Policy */}
-      <section id="privacy" className="py-20">
+      {/* Privacy Policy Content */}
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Privacy Policy</h2>
-            
-            <div className="bg-gray-50 p-6 rounded-lg mb-8">
-              <p className="text-sm text-gray-600">
-                <strong>Last updated:</strong> {new Date().toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
-                })}
+            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-8">
+              <p className="text-sm text-gray-600 dark:text-gray-300">
+                <strong>Last updated:</strong> 01-09-2025
               </p>
             </div>
 
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Information We Collect</h3>
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Personal Information</h4>
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Name, email address, and contact information</li>
-                <li>Account credentials and profile information</li>
-                <li>Payment and billing information</li>
-                <li>Communication preferences and settings</li>
-              </ul>
-              
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Usage Data</h4>
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Service usage patterns and analytics</li>
-                <li>Device information and browser data</li>
-                <li>Performance metrics and error logs</li>
-                <li>Feature preferences and customization</li>
-              </ul>
-              
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Content Data</h4>
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Uploaded videos and images for pose analysis</li>
-                <li>Analysis results and performance data</li>
-                <li>User-generated content and annotations</li>
-                <li>Training data for AI model improvement</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">How We Use Your Information</h3>
-            <div className="mb-8">
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Provide and maintain our AI pose analysis services</li>
-                <li>Process payments and manage subscriptions</li>
-                <li>Improve our algorithms and user experience</li>
-                <li>Send important service updates and notifications</li>
-                <li>Provide customer support and technical assistance</li>
-                <li>Ensure security and prevent fraud</li>
-                <li>Comply with legal obligations</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Data Sharing and Disclosure</h3>
-            <p className="text-gray-700 mb-6">
-              We do not sell, trade, or rent your personal information to third parties. 
-              We may share your information only in the following circumstances:
+            <p className="text-gray-700 dark:text-gray-300 mb-8 text-lg">
+              We built this app to help you find and capture great poses easily. Your privacy is very important to us. 
+              This page explains what information we collect, how we use it, and how we keep it safe.
             </p>
-            <ul className="list-disc pl-6 text-gray-700 mb-6">
-              <li>With your explicit consent</li>
-              <li>To comply with legal requirements</li>
-              <li>To protect our rights and safety</li>
-              <li>With trusted service providers who assist in our operations</li>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Information We Collect</h2>
+            
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Camera & Photos/Videos</h3>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>The app uses your camera or gallery only when you choose to take or upload a photo/video.</li>
+              <li>Your photos and videos stay on your device unless you choose to save or share them.</li>
+              <li>We do not secretly record or upload any media.</li>
             </ul>
-          </div>
-        </div>
-      </section>
 
-      {/* Cookie Policy */}
-      <section id="cookies" className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Cookie Policy</h2>
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Pose & Gesture Data</h3>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>The app analyzes your body position (pose/gesture) to help you match poses.</li>
+              <li>This data is processed in real-time and is not stored permanently on our servers.</li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Location Type (Optional)</h3>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>If you choose, you can select or upload your scene/location type (e.g., beach, café, park) to get better pose suggestions.</li>
+              <li>We do not track your real GPS location unless you specifically allow it.</li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">User-Generated Content</h3>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>You may save or share poses, or upload poses for the community.</li>
+              <li>If shared, they may be visible to other users.</li>
+            </ul>
+
+            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Basic App Analytics</h3>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>We may collect anonymous data (like how often the app is used, crash reports) to improve performance.</li>
+              <li>This does not include your photos, videos, or personal identity.</li>
+            </ul>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">How We Use Your Information</h2>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>To suggest and recommend poses.</li>
+              <li>To analyze your posture in real-time and capture your perfect shot.</li>
+              <li>To improve app features and user experience.</li>
+              <li>To keep the app secure and reliable.</li>
+            </ul>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">What We Do Not Do</h2>
+            <div className="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-400 dark:border-red-500 p-4 mb-6">
+              <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300">
+                <li>❌ We do not sell your data.</li>
+                <li>❌ We do not store your personal photos or videos without your choice.</li>
+                <li>❌ We do not secretly track your location.</li>
+              </ul>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Your Choices</h2>
+            <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
+              <li>You can deny camera or gallery access (but some features won't work).</li>
+              <li>You can delete poses or photos anytime from your device.</li>
+              <li>If you shared content, you can request us to remove it by contacting support.</li>
+            </ul>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Security</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
+              We use reasonable measures to protect your data. However, no system is 100% secure. 
+              We encourage you to only share what you are comfortable with.
+            </p>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Children's Privacy</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
+              This app is not meant for children under 13. If you are under 13, please do not use the app without a parent or guardian.
+            </p>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Frequently Asked Questions (FAQ)</h2>
             
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">What Are Cookies?</h3>
-            <p className="text-gray-700 mb-6">
-              Cookies are small text files stored on your device when you visit our website. 
-              They help us provide a better user experience and analyze how our services are used.
-            </p>
+            <div className="space-y-6 mb-8">
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">1. What does this app do?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  This app suggests poses based on different things like time of day, clothes, scene type, gender, or number of people. 
+                  It can also check your pose in real-time and click the photo when your posture matches perfectly.
+                </p>
+              </div>
 
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Types of Cookies We Use</h3>
-            <div className="mb-8">
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Essential Cookies</h4>
-              <p className="text-gray-700 mb-4">
-                These cookies are necessary for the website to function properly. They enable 
-                basic functions like page navigation, secure areas access, and form submissions.
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">2. Do I need to allow camera access?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Yes, if you want to capture photos or videos directly inside the app. If you don't allow camera, you can still upload from your gallery and get pose suggestions.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">3. Are my photos and videos stored on your servers?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  No. Your photos and videos stay on your device. We do not upload or store them unless you choose to share poses with the community.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">4. Does the app track my location?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  No. The app only uses location type (like beach, park, café) to suggest poses. It does not track your real GPS location unless you give explicit permission.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">5. What is "pose detection" and is my body data saved?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Pose detection means the app uses your camera to check your body outline and posture to guide you into the right pose. This is processed in real-time and not stored or shared anywhere.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">6. Can I create and save my own poses?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  Yes! You can create poses, save them for yourself, or even share them with others if you like.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">7. Will my shared poses be visible to everyone?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  If you choose to share poses publicly, they may be visible to other users. If you keep them private, only you can see them.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">8. What if my posture isn't perfect?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  The app will guide you to adjust. It only clicks the photo when your pose matches the target pose, so you get the best results.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">9. Do you sell my data to anyone?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  No. We do not sell or trade your personal data, photos, or videos.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">10. What age group can use this app?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  This app is designed for users above 13 years old. If you are younger, please use it with a parent or guardian.
+                </p>
+              </div>
+
+              <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">11. How can I contact support if I have issues?</h4>
+                <p className="text-gray-700 dark:text-gray-300">
+                  You can reach us anytime at: 📧 admin@poseiq.app
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Contact Us</h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-4">
+              If you have any questions about this Privacy Policy, please contact us:
+            </p>
+            <div className="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg">
+              <p className="text-gray-700 dark:text-gray-300">
+                📧 Email: admin@poseiq.app<br />
+                🌐 Website: https://poseiq.app
               </p>
-              
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Performance Cookies</h4>
-              <p className="text-gray-700 mb-4">
-                These cookies help us understand how visitors interact with our website by 
-                collecting and reporting information anonymously.
-              </p>
-              
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Functional Cookies</h4>
-              <p className="text-gray-700 mb-4">
-                These cookies enable enhanced functionality and personalization, such as 
-                remembering your preferences and settings.
-              </p>
-              
-              <h4 className="text-xl font-semibold text-gray-800 mb-3">Analytics Cookies</h4>
-              <p className="text-gray-700 mb-4">
-                These cookies help us analyze website traffic and understand how our users 
-                navigate and use our services.
-              </p>
             </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Managing Cookies</h3>
-            <p className="text-gray-700 mb-6">
-              You can control and manage cookies through your browser settings. However, 
-              disabling certain cookies may affect the functionality of our services.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Data Protection */}
-      <section id="data" className="py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Data Protection & Security</h2>
-            
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Data Security Measures</h3>
-            <div className="mb-8">
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>End-to-end encryption for data in transit and at rest</li>
-                <li>Multi-factor authentication for account access</li>
-                <li>Regular security audits and vulnerability assessments</li>
-                <li>Secure data centers with 24/7 monitoring</li>
-                <li>Employee training on data protection best practices</li>
-                <li>Incident response and breach notification procedures</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Data Retention</h3>
-            <p className="text-gray-700 mb-6">
-              We retain your personal information only for as long as necessary to provide 
-              our services and comply with legal obligations. You can request deletion of 
-              your data at any time through your account settings.
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Your Rights</h3>
-            <div className="mb-8">
-              <p className="text-gray-700 mb-4">You have the right to:</p>
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Access your personal information</li>
-                <li>Correct inaccurate or incomplete data</li>
-                <li>Request deletion of your data</li>
-                <li>Restrict processing of your data</li>
-                <li>Data portability</li>
-                <li>Object to processing</li>
-                <li>Withdraw consent</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">International Data Transfers</h3>
-            <p className="text-gray-700 mb-6">
-              Your data may be processed in countries other than your own. We ensure that 
-              all international data transfers comply with applicable data protection laws 
-              and implement appropriate safeguards.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Security Policy */}
-      <section id="security" className="py-20 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8">Security Policy</h2>
-            
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Infrastructure Security</h3>
-            <div className="mb-8">
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Cloud infrastructure with enterprise-grade security</li>
-                <li>Regular penetration testing and security assessments</li>
-                <li>Intrusion detection and prevention systems</li>
-                <li>24/7 security monitoring and incident response</li>
-                <li>Regular security updates and patch management</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Application Security</h3>
-            <div className="mb-8">
-              <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Secure coding practices and code reviews</li>
-                <li>Regular security testing and vulnerability scanning</li>
-                <li>Input validation and output encoding</li>
-                <li>Session management and authentication controls</li>
-                <li>API security and rate limiting</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Incident Response</h3>
-            <p className="text-gray-700 mb-6">
-              We have established procedures for detecting, responding to, and recovering from 
-              security incidents. In the event of a data breach, we will notify affected users 
-              and relevant authorities as required by law.
-            </p>
-
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Compliance</h3>
-            <p className="text-gray-700 mb-6">
-              We comply with relevant data protection regulations including GDPR, CCPA, and 
-              other applicable laws. Our security practices are regularly audited and updated 
-              to maintain compliance.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section className="py-20 bg-blue-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-6">Questions About Our Policies?</h2>
-          <p className="text-xl text-blue-100 mb-8">
-            We're here to help clarify any questions you may have about our policies, 
-            data practices, or security measures.
-          </p>
-          <div className="bg-white p-6 rounded-lg inline-block">
-            <p className="text-gray-700">
-              <strong>Email:</strong> privacy@pose-iq.com<br />
-              <strong>Data Protection Officer:</strong> dpo@pose-iq.com<br />
-              <strong>Phone:</strong> +1 (555) 123-4567
-            </p>
           </div>
         </div>
       </section>
