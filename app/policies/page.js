@@ -132,7 +132,7 @@ export default function Policies() {
               </div>
 
               <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">5. What is "pose detection" and is my body data saved?</h4>
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">5. What is &quot;pose detection&quot; and is my body data saved?</h4>
                 <p className="text-gray-700 dark:text-gray-300">
                   Pose detection means the app uses your camera to check your body outline and posture to guide you into the right pose. This is processed in real-time and not stored or shared anywhere.
                 </p>

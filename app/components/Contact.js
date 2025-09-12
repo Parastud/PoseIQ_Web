@@ -64,7 +64,7 @@ export default function Contact() {
               
               {submitStatus === 'success' && (
                 <div className="bg-green-900 border border-green-700 text-green-300 px-4 py-3 rounded-lg mb-6">
-                  Thank you for your message! We'll get back to you within 24 hours.
+                  Thank you for your message! We&apos;ll get back to you within 24 hours.
                 </div>
               )}
 
@@ -286,7 +286,7 @@ export default function Contact() {
               </h3>
               <p className="text-gray-300">
                 Absolutely! We offer personalized demos to show you how Pose-IQ can meet 
-                your specific needs. Simply select "Request Demo" in the contact form above.
+                your specific needs. Simply select &quot;Request Demo&quot; in the contact form above.
               </p>
             </div>
             
