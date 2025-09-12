@@ -40,7 +40,7 @@ export default function Terms() {
             <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
               <li>The app may ask for permission to use your camera and gallery to capture or upload photos/videos.</li>
               <li>Your photos and videos remain on your device unless you choose to share them.</li>
-              <li>If you share poses or content, you confirm that the content is yours and does not violate anyone's rights.</li>
+              <li>If you share poses or content, you confirm that the content is yours and does not violate anyone&apos;s rights.</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">3. Pose Detection and Suggestions</h2>

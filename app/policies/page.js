@@ -83,7 +83,7 @@ export default function Policies() {
 
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Your Choices</h2>
             <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300 mb-6">
-              <li>You can deny camera or gallery access (but some features won't work).</li>
+              <li>You can deny camera or gallery access (but some features won&apos;t work).</li>
               <li>You can delete poses or photos anytime from your device.</li>
               <li>If you shared content, you can request us to remove it by contacting support.</li>
             </ul>
@@ -94,7 +94,7 @@ export default function Policies() {
               We encourage you to only share what you are comfortable with.
             </p>
 
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Children's Privacy</h2>
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">Children&apos;s Privacy</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
               This app is not meant for children under 13. If you are under 13, please do not use the app without a parent or guardian.
             </p>
@@ -113,7 +113,7 @@ export default function Policies() {
               <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
                 <h4 className="font-semibold text-gray-800 dark:text-white mb-2">2. Do I need to allow camera access?</h4>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Yes, if you want to capture photos or videos directly inside the app. If you don't allow camera, you can still upload from your gallery and get pose suggestions.
+                  Yes, if you want to capture photos or videos directly inside the app. If you don&apos;t allow camera, you can still upload from your gallery and get pose suggestions.
                 </p>
               </div>
 
@@ -153,7 +153,7 @@ export default function Policies() {
               </div>
 
               <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">8. What if my posture isn't perfect?</h4>
+                <h4 className="font-semibold text-gray-800 dark:text-white mb-2">8. What if my posture isn&apos;t perfect?</h4>
                 <p className="text-gray-700 dark:text-gray-300">
                   The app will guide you to adjust. It only clicks the photo when your pose matches the target pose, so you get the best results.
                 </p>
